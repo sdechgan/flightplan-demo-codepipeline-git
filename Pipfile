@@ -1,0 +1,9 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flightplan = {git = "ssh://git@bitbucket.org/corpinfo/flightplan.git", editable = true}
+runway = "~= 0.40"
+"d64f9ae" = {editable = true, path = "./../flightplan"}

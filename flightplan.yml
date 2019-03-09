@@ -1,0 +1,25 @@
+---
+name: flightplan-demo-runway
+
+system:
+  type: codepipeline
+  iamRolePolicies:
+    - PolicyDocument:
+        Statement:
+          - Effect: Allow
+            Action: '*'
+            Resource: '*'
+
+in:
+  type: runway
+  source:
+    type: git
+    configuration:
+      Owner: sdechgan
+      Repo: flightplan-demo-conduit
+    env:
+      dev: master
+
+out:
+  type: aws
+  region: us-west-2
