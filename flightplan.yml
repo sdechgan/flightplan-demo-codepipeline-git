@@ -1,5 +1,5 @@
 ---
-name: flightplan-demo-runway
+name: flightplan-demo-codepipeline-git
 
 system:
   type: codepipeline
@@ -16,10 +16,12 @@ in:
     type: git
     configuration:
       Owner: sdechgan
-      Repo: flightplan-demo-conduit
+      Repo: flightplan-demo-codepipeline-git
     env:
       dev: master
-
+#    type: s3
+#    env:
+#      dev: master
 out:
   type: aws
   region: us-west-2

@@ -34,6 +34,21 @@ Note: Substitute `.\make` for `make` when running on Windows
 1. Execute `make build`. This will generate the CloudFormation templates and stack configuration in .flightplan/
 2. Execute `make install`. This will deploy pipeline via CloudFormation.  You will be prompted to enter the GitHub OAuth Token
 
+```aidl
+make install
+pipenv sync && pipenv run flightplan install
+Installing dependencies from Pipfile.lock (521121)…
+  🐍   ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ 64/64 — 00:00:10
+To activate this project's virtualenv, run pipenv shell.
+Alternatively, run a command inside the virtualenv with pipenv run.
+All dependencies are now up-to-date!
+INFO:botocore.credentials:Found credentials in environment variables.
+Deploying CodePipeline via CloudFormation
+dev environment selected
+Enter GitHub OAuth Token: 
+
+```
+
 ### Teardown
 
 Delete the `flightplan-demo-runway-dev-codepipeline` stack.
