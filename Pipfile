@@ -5,8 +5,8 @@ name = "pypi"
 
 [packages]
 runway = "~= 0.40"
-
+pylint = "~= 1.9.4"
 
 [dev-packages]
-flightplan = {git = "ssh://git@bitbucket.org/corpinfo/flightplan.git", editable = true}
+flightplan = {editable = true, git = "ssh://git@bitbucket.org/corpinfo/flightplan.git"}
 #flightplan = {path = "../flightplan", editable = true}
