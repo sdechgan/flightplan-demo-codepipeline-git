@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "37aa20c86deefe754232a9e25a593cce81bab5ae2ff228174c41610249bd37b0"
+            "sha256": "80b46ef5de7cfd47ac9dfaed69cb32d8023ee3ee6137b5bb0537f61a502bd4ec"
         },
         "pipfile-spec": 6,
         "requires": {},
@@ -116,6 +116,17 @@
                 "sha256:c70dd71abe5a8c85e55e12c19bd91ccfeec11a6e99044204511f9ed547d48451"
             ],
             "version": "==0.3"
+        },
+        "enum34": {
+            "hashes": [
+                "sha256:2d81cbbe0e73112bdfe6ef8576f2238f2ba27dd0d55752a776c41d38b7da2850",
+                "sha256:644837f692e5f550741432dd3f223bbb9852018674981b1664e5dc339387588a",
+                "sha256:6bd0f6ad48ec2aa117d3d141940d484deccda84d4fcd884f5c3d93c23ecd8c79",
+                "sha256:8ad8c4783bf61ded74527bffb48ed9b54166685e4230386a9ed9b1279e2df5b1"
+            ],
+            "index": "pypi",
+            "markers": "python_version < '3.0'",
+            "version": "==1.1.6"
         },
         "flake8": {
             "hashes": [
@@ -350,6 +361,7 @@
                 "sha256:ee1e85575587c5b58ddafa25e1c1b01691ef172e139fc25585e5d3f02451da93"
             ],
             "index": "pypi",
+            "markers": "python_version < '3.0'",
             "version": "==1.9.4"
         },
         "python-dateutil": {

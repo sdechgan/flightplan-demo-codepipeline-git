@@ -5,7 +5,8 @@ name = "pypi"
 
 [packages]
 runway = "~= 0.40"
-pylint = "~= 1.9.4"
+pylint = {version = ">=1.9.4,<2.0.0", markers="python_version < '3.0'"}
+enum34 = {version = "==1.1.6", markers="python_version < '3.0'"}
 
 [dev-packages]
 flightplan = {editable = true, git = "ssh://git@bitbucket.org/corpinfo/flightplan.git"}
