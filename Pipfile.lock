@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "00b735356b46bff94355026b46e87584c2f1193e08db14ddbda6295a85521121"
+            "sha256": "ecd43841e74f9f3afed2e52d88c4337cd4e5e36ac7be2fb8ad8d45b3957a5b8d"
         },
         "pipfile-spec": 6,
         "requires": {},
@@ -16,10 +16,10 @@
     "default": {
         "astroid": {
             "hashes": [
-                "sha256:39183aecc01d6f74eb54edc6739992e842f3bf3068bdfaaba30b5a1742f44091",
-                "sha256:62bd1d8d2ace3e812b3a22eb3c4b7856536d8cc0cdb37466f6a53cf881dbad1f"
+                "sha256:6560e1e1749f68c64a4b5dee4e091fce798d2f0d84ebe638cf0e0585a343acf4",
+                "sha256:b65db1bbaac9f9f4d190199bb8680af6f6f84fd3769a5ea883df8a91fe68b4c4"
             ],
-            "version": "==2.2.4"
+            "version": "==2.2.5"
         },
         "awacs": {
             "hashes": [
@@ -29,9 +29,9 @@
         },
         "aws-sam-translator": {
             "hashes": [
-                "sha256:1008d149599d5d629b0c7bdfaa249d59eaab6d194faf5f0f941fa7209e68e6f2"
+                "sha256:0e1fa094c6791b233f5e73f2f0803ec6e0622f2320ec5a969f0986855221b92b"
             ],
-            "version": "==1.9.1"
+            "version": "==1.10.0"
         },
         "awscli": {
             "hashes": [
@@ -56,10 +56,10 @@
         },
         "certifi": {
             "hashes": [
-                "sha256:47f9c83ef4c0c621eaef743f133f09fa8a74a9b75f037e8624f83bd1b6626cb7",
-                "sha256:993f830721089fef441cdfeb4b2c8c9df86f0c63239f06bd025a76a7daddb033"
+                "sha256:59b7658e26ca9c7339e00f8f4636cdfe59d34fa37b9b04f6f9e9926b3cece1a5",
+                "sha256:b26104d6835d1f5e49452a26eb2ff87fe7090b89dfcaee5ea2212697e1e1d7ae"
             ],
-            "version": "==2018.11.29"
+            "version": "==2019.3.9"
         },
         "cfn-flip": {
             "hashes": [
@@ -95,10 +95,6 @@
                 "sha256:48eb22f4f8461b1df5734a074b57042430fb06e1d61bd1e11b078c0fe6d7a1f1"
             ],
             "version": "==0.3.9"
-        },
-        "d64f9ae": {
-            "editable": true,
-            "path": "./../flightplan"
         },
         "docopt": {
             "hashes": [
@@ -144,7 +140,8 @@
         },
         "flightplan": {
             "editable": true,
-            "path": "../flightplan"
+            "git": "ssh://git@bitbucket.org/corpinfo/flightplan.git",
+            "ref": "e02d26bbca830f93ac64dc7c659c5c65c24eb99c"
         },
         "formic2": {
             "hashes": [
@@ -183,10 +180,10 @@
         },
         "isort": {
             "hashes": [
-                "sha256:89041186651a9a6159683098f337eed0994d9d94e006f891c6e8cbeb8e65f1c7",
-                "sha256:ba51a651505242b0b37ad94b281e1154301e221a40c623e62334ed863fc1c98c"
+                "sha256:18c796c2cd35eb1a1d3f012a214a542790a1aed95e29768bdcb9f2197eccbd0b",
+                "sha256:96151fca2c6e736503981896495d344781b60d18bfda78dc11b290c6125ebdb6"
             ],
-            "version": "==4.3.12"
+            "version": "==4.3.15"
         },
         "jenkinsapi": {
             "hashes": [
@@ -413,10 +410,10 @@
         },
         "runway": {
             "hashes": [
-                "sha256:6dc4e755fa09ae040d5c5c2bbf76ac12acd6e044515ea5918af61273623789c1"
+                "sha256:33080249f69d9a371246fe35d8ba8404ad584b7c27fbb667f558289ba77ab8ea"
             ],
             "index": "pypi",
-            "version": "==0.42.0"
+            "version": "==0.44.0"
         },
         "s3transfer": {
             "hashes": [
