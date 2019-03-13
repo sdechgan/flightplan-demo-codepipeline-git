@@ -7,5 +7,5 @@ name = "pypi"
 runway = "~= 0.40"
 
 [dev-packages]
-flightplan = {editable = true, git = "ssh://git@bitbucket.org/corpinfo/flightplan.git"}
-#flightplan = {path = "../flightplan", editable = true}
+#flightplan = {editable = true, git = "ssh://git@bitbucket.org/corpinfo/flightplan.git"}
+flightplan = {path = "../flightplan", editable = true}
